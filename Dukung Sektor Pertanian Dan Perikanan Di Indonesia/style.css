@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #ff6666;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+/* Home Styles */
+#home {
+    background-color: #ffffcc;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Edukasi Styles */
+#edukasi {
+    background-color: #ffffcc;
+    padding: 80px 0;
+}
+
+.edu-video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.edu-video-item {
+    background-color: #e9e6e6ee;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-description {
+    margin-top: 20px;
+}
+
+/* Informasi Styles */
+#informasi {
+    background-color: #ffffcc;
+    padding: 80px 0;
+}
+
+.info-news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.info-news-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.info-news-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* About Styles */
+#about {
+    background-color: #ffffcc;
+    padding: 80px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
